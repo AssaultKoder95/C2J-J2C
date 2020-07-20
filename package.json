@@ -1,0 +1,29 @@
+{
+  "name": "c2j-j2c",
+  "version": "1.0.0",
+  "description": "A simple CSV to JSON and vice versa convertor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssaultKoder95/C2J-J2C.git"
+  },
+  "keywords": [
+    "nodejs",
+    "js",
+    "csv",
+    "to",
+    "json",
+    "json",
+    "to",
+    "csv"
+  ],
+  "author": "Abhishek Khanna <abhishekkhanna1995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AssaultKoder95/C2J-J2C/issues"
+  },
+  "homepage": "https://github.com/AssaultKoder95/C2J-J2C#readme"
+}
