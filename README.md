@@ -3,22 +3,24 @@
 A simple CSV to JSON and vice versa convertor
 
 ### Progress so far
-
 This beta release contains csv to json conversion feature.
 
 ### Future Plans
 
 The upcoming releases will include ( not limited to ):
 
-- json to csv conversion
-- additional flags to remove comments from csv files
+- JSON to CSV conversion
+- additional flags to remove comments from CSV files
+- Access files using remote URL
+- Convert CSV string to JSON
+- Access via command line
 
 ### How to use?
 
 Currently for CSV to JSON conversion, you can pass a config object with two valid options:
 
 - delimiter: it will be used as a separator between the data
-- headers: if true, the output json will have the header values mapped to the data
+- headers: if true, the output JSON will have the header values mapped to the data
 
 for example, for following CSV:
 
@@ -68,7 +70,7 @@ const { csv2json } = require('./index.js');
 
 (async () => {
   try {
-    const opStream = await csv2json('../test_files/sample.csv', {
+    const opStream = await csv2json('../test_files/sample.CSV', {
       delimiter: ',',
       headers: true,
     });
@@ -82,4 +84,4 @@ const { csv2json } = require('./index.js');
 })();
 ```
 
-Note: This is an beta release for csv to json conversion feature. We will be implementing json to csv conversion feature as well as other advanced features in module in upcoming releases.
+Note: This is an beta release for CSV to JSON conversion feature. We will be implementing JSON to CSV conversion feature as well as other advanced features in module in upcoming releases.
