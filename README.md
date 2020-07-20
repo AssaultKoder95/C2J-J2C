@@ -3,8 +3,7 @@
 A simple CSV to JSON and vice versa convertor
 
 ### Progress so far
-
-This alpha release contains CSV to JSON conversion feature.
+This beta release contains csv to json conversion feature.
 
 ### Future Plans
 
